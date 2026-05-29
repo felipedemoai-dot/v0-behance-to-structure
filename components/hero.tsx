@@ -22,9 +22,6 @@ export function Hero() {
     >
       {/* editorial corner labels */}
       <div className="pointer-events-none absolute inset-0 hidden md:block">
-        <p className="absolute left-8 top-[28%] max-w-[12ch] font-serif text-sm italic leading-snug text-muted-foreground">
-          25 años dirigiendo creatividad
-        </p>
         <a
           href="#proyectos"
           className="pointer-events-auto absolute right-8 top-[30%] flex items-center gap-1 font-serif text-sm italic text-muted-foreground transition-colors hover:text-foreground"
@@ -39,16 +36,19 @@ export function Hero() {
       <div className="mx-auto w-full max-w-[1500px]">
         <h1
           className="text-center font-bold uppercase leading-[0.85] tracking-[-0.02em] text-balance"
-          style={{ fontSize: 'clamp(3rem, 12.5vw, 13rem)' }}
+          style={{ fontSize: 'clamp(2.25rem, 9vw, 9.5rem)' }}
         >
-          <span className="block">Creatividad</span>
+          <span className="block">Las personas no</span>
           <span className="block">
-            que <span className="font-serif text-[0.5em] italic font-normal align-middle text-change">(</span>
+            piden{' '}
+            <span className="font-serif text-[0.5em] italic font-normal align-middle text-change">(</span>
             <Cut src="/images/hero-1.png" alt="Retrato editorial en movimiento" />
-            <span className="font-serif text-[0.5em] italic font-normal align-middle text-change">)</span> merece
+            <span className="font-serif text-[0.5em] italic font-normal align-middle text-change">)</span>{' '}
+            cercanía.
           </span>
+          <span className="block">Piden claridad.</span>
           <span className="block">
-            ser <span className="align-super text-[0.4em] text-change">✳</span> comunicada
+            Piden <span className="align-super text-[0.4em] text-change">✳</span> coherencia.
           </span>
         </h1>
       </div>

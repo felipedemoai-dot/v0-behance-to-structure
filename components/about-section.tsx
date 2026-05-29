@@ -96,10 +96,9 @@ export function AboutSection() {
         {/* Philosophy quote */}
         <figure className="mt-20 border-t border-border pt-10 md:mt-32">
           <blockquote className="max-w-5xl text-pretty text-2xl font-bold leading-tight tracking-tight md:text-5xl">
-            La pregunta no es cómo podemos comunicar mejor. La pregunta es si lo
-            que haces hoy{' '}
+            En una crisis de confianza, no se trata de ganarla.{' '}
             <span className="font-serif font-normal italic text-change">
-              merece ser comunicado.
+              Se trata de merecerla.
             </span>
           </blockquote>
           <figcaption className="mt-6 text-sm uppercase tracking-wide text-muted-foreground">
