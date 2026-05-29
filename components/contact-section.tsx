@@ -1,8 +1,8 @@
 const LINKS = [
   { label: 'Email', value: 'felipegaetevilches@gmail.com', href: 'mailto:felipegaetevilches@gmail.com' },
   { label: 'Teléfono', value: '+56 9 9929 3066', href: 'tel:+56999293066' },
-  { label: 'LinkedIn', value: 'in/felipegaete', href: 'https://www.linkedin.com/' },
-  { label: 'Behance', value: 'Portfolio', href: 'https://www.behance.net/' },
+  { label: 'LinkedIn', value: 'in/felipegaetevilches', href: 'https://www.linkedin.com/in/felipegaetevilches/' },
+  { label: 'Behance', value: 'felizpegaete', href: 'https://www.behance.net/felizpegaete' },
 ]
 
 export function ContactSection() {

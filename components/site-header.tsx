@@ -12,8 +12,8 @@ const NAV = [
 
 const LINKS = [
   { label: 'Email', href: 'mailto:felipegaetevilches@gmail.com' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-  { label: 'Behance', href: 'https://www.behance.net/' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/felipegaetevilches/' },
+  { label: 'Behance', href: 'https://www.behance.net/felizpegaete' },
 ]
 
 export function SiteHeader() {
